@@ -1,6 +1,6 @@
 [project]
 name = "ha-yasl"
-version = "0.1.0"
+version = "0.1.1"
 description = "Yasl shopping lists as to-do lists in Home Assistant"
 requires-python = ">=3.13"
 license = "MIT"
