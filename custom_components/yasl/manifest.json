@@ -1,0 +1,13 @@
+{
+  "domain": "yasl",
+  "name": "Yasl",
+  "codeowners": ["@DevEddy"],
+  "config_flow": true,
+  "dependencies": ["auth"],
+  "documentation": "https://github.com/Resolved-IT/ha-yasl",
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/Resolved-IT/ha-yasl/issues",
+  "requirements": [],
+  "version": "0.1.0"
+}

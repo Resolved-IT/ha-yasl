@@ -1,0 +1,49 @@
+{
+  "config": {
+    "step": {
+      "pick_implementation": {
+        "title": "Anmeldemethode wählen"
+      },
+      "reauth_confirm": {
+        "title": "Erneut bei Yasl anmelden",
+        "description": "Die Verbindung zu Yasl wurde getrennt oder ist abgelaufen. Melde dich erneut an, damit deine Einkaufslisten in Home Assistant bleiben."
+      }
+    },
+    "abort": {
+      "already_configured": "Dieses Yasl-Konto ist bereits eingerichtet.",
+      "reauth_successful": "Erneut bei Yasl angemeldet.",
+      "wrong_account": "Du hast dich mit einem anderen Yasl-Konto angemeldet als dem dieses Eintrags.",
+      "authorize_url_timeout": "Zeitüberschreitung beim Erstellen der Anmelde-URL.",
+      "missing_configuration": "Die Yasl-Anmeldung ist nicht eingerichtet. Starte Home Assistant neu und versuch es noch einmal.",
+      "no_url_available": "Keine URL verfügbar. Prüf die Netzwerkeinstellungen von Home Assistant.",
+      "user_rejected_authorize": "Du hast den Zugriff in Yasl nicht erlaubt.",
+      "oauth_error": "Yasl hat ungültige Anmeldedaten geliefert.",
+      "oauth_failed": "Die Anmeldung bei Yasl ist fehlgeschlagen.",
+      "oauth_timeout": "Zeitüberschreitung bei der Anmeldung bei Yasl.",
+      "oauth_unauthorized": "Yasl hat die Anmeldung abgelehnt."
+    },
+    "create_entry": {
+      "default": "Deine Yasl-Listen sind jetzt To-do-Listen in Home Assistant."
+    }
+  },
+  "exceptions": {
+    "auth_failed": {
+      "message": "Die Verbindung zu Yasl wurde getrennt. Melde dich erneut an."
+    },
+    "cannot_connect": {
+      "message": "Yasl ist nicht erreichbar."
+    },
+    "update_failed": {
+      "message": "Die Yasl-Listen konnten nicht aktualisiert werden: {error}"
+    },
+    "daily_limit": {
+      "message": "Die kostenlosen Änderungen für heute sind aufgebraucht. Mit Yasl Plus gibt es kein Limit; die Listen werden weiter angezeigt."
+    },
+    "request_failed": {
+      "message": "Yasl hat die Änderung abgelehnt: {error}"
+    },
+    "item_not_found": {
+      "message": "Der Artikel {uid} steht nicht mehr auf der Liste."
+    }
+  }
+}
